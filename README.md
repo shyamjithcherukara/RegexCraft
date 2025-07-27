@@ -8,7 +8,7 @@
 [![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen.svg)](https://regexcraft.cleanstack.dev/)
 [![API Docs](https://img.shields.io/badge/API-Scalar-orange.svg)](https://regexcraftapi.cleanstack.dev/scalar/v1)
 
-![RegexCraft Banner](docs/images/regexcraft-banner.png)
+
 
 ## 🌐 Live Demo
 
