@@ -49,7 +49,7 @@ Experience the full power of RegexCraft without any installation! Test regex pat
 ## 🚀 Quick Start
 
 ### Prerequisites
-- [.NET 8.0 SDK](https://dotnet.microsoft.com/download) or later
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/download) or later
 - Git
 
 ### Installation
@@ -362,7 +362,7 @@ dotnet run --project RegexCraft.Api
 ### Dependencies
 
 #### Core Dependencies
-- **.NET 8.0** - Core framework
+- **.NET 9.0** - Core framework
 - **Newtonsoft.Json** - JSON serialization
 - **xUnit** - Unit testing framework
 
