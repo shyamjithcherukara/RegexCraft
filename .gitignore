@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/RegexCraft.Console/bin/
+/RegexCraft.Console/obj/
+/RegexCraft.Core/bin/
+/RegexCraft.Core/obj
+/RegexCraft.Tests/bin/
+/RegexCraft.Tests/obj
+/RegexCraft.Tests/TestResults
+/RegexCraft.API/bin/
+/RegexCraft.API/obj/

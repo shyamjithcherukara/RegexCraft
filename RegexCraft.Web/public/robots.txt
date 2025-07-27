@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://regexcraft.cleanstack.dev/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow API endpoints
+Disallow: /api/
+Disallow: /api/*
+
+# Allow all other content
+Allow: / 

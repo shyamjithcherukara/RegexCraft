@@ -1,0 +1,69 @@
+@host = http://localhost:5279
+
+### Health check
+GET {{host}}/api/health
+Accept: application/json
+
+### Validate regex pattern
+GET {{host}}/api/regex/validate?pattern=abc
+Accept: application/json
+
+### Test regex pattern
+POST {{host}}/api/regex/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "pattern": "abc",
+  "testString": "abcdef"
+}
+
+### Explain regex pattern
+POST {{host}}/api/regex/explain
+Content-Type: application/json
+Accept: application/json
+
+{
+  "pattern": "abc"
+}
+
+### Generate code snippets
+POST {{host}}/api/regex/generate-code
+Content-Type: application/json
+Accept: application/json
+
+{
+  "pattern": "abc",
+  "sampleText": "abcdef",
+  "language": "C#"
+}
+
+### Performance test
+POST {{host}}/api/regex/performance
+Content-Type: application/json
+Accept: application/json
+
+{
+  "pattern": "abc",
+  "testString": "abcdef",
+  "iterations": 1000
+}
+
+### Get all patterns
+GET {{host}}/api/patterns
+Accept: application/json
+
+### Get pattern categories
+GET {{host}}/api/patterns/categories
+Accept: application/json
+
+### Get patterns by category
+GET {{host}}/api/patterns/category/General
+Accept: application/json
+
+### Search patterns
+GET {{host}}/api/patterns/search?query=email
+Accept: application/json
+````````
+
+# Response
